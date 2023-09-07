@@ -55,7 +55,7 @@ function roman(event) {
 function copy(event) {
     event.preventDefault();
 
-    let input = document.getElementById("input");
+    let input = document.getElementById("result");
     input.select();
     document.execCommand("copy");
     
